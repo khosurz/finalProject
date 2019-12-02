@@ -1,25 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7401" started-at="2019-12-02T01:07:53 EST" finished-at="2019-12-02T01:08:01 EST">
+  <suite name="Default suite" duration-ms="37857" started-at="2019-12-02T15:50:49 EST" finished-at="2019-12-02T15:51:27 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7401" started-at="2019-12-02T01:07:53 EST" finished-at="2019-12-02T01:08:01 EST">
-      <class name="com.Pages.RoughPage">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.Pages.RoughPage@4973813a]" name="testSetup" is-config="true" duration-ms="3881" started-at="2019-12-02T01:07:53 EST" finished-at="2019-12-02T01:07:57 EST">
+    <test name="Default test" duration-ms="37857" started-at="2019-12-02T15:50:49 EST" finished-at="2019-12-02T15:51:27 EST">
+      <class name="com.Runner.SmockRunTestNG">
+        <test-method status="PASS" signature="testStartUp()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="testStartUp" is-config="true" duration-ms="12" started-at="2019-12-02T15:50:49 EST" finished-at="2019-12-02T15:50:49 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="searchHomePage()[pri:0, instance:com.Pages.RoughPage@4973813a]" name="searchHomePage" duration-ms="3245" started-at="2019-12-02T01:07:57 EST" finished-at="2019-12-02T01:08:00 EST">
+        </test-method> <!-- testStartUp -->
+        <test-method status="PASS" signature="rampUp()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="rampUp" is-config="true" duration-ms="1" started-at="2019-12-02T15:50:49 EST" finished-at="2019-12-02T15:50:49 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchHomePage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Pages.RoughPage@4973813a]" name="tearDown" is-config="true" duration-ms="237" started-at="2019-12-02T01:08:00 EST" finished-at="2019-12-02T01:08:01 EST">
+        </test-method> <!-- rampUp -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="logOut" duration-ms="9059" started-at="2019-12-02T15:50:49 EST" finished-at="2019-12-02T15:50:58 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.Pages.RoughPage -->
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="rampdown()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="rampdown" is-config="true" duration-ms="131" started-at="2019-12-02T15:50:58 EST" finished-at="2019-12-02T15:50:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampdown -->
+        <test-method status="PASS" signature="rampUp()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="rampUp" is-config="true" duration-ms="1" started-at="2019-12-02T15:50:58 EST" finished-at="2019-12-02T15:50:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="login" duration-ms="8536" started-at="2019-12-02T15:50:58 EST" finished-at="2019-12-02T15:51:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="rampdown()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="rampdown" is-config="true" duration-ms="178" started-at="2019-12-02T15:51:07 EST" finished-at="2019-12-02T15:51:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampdown -->
+        <test-method status="PASS" signature="rampUp()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="rampUp" is-config="true" duration-ms="2" started-at="2019-12-02T15:51:07 EST" finished-at="2019-12-02T15:51:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampUp -->
+        <test-method status="PASS" signature="myAccount()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="myAccount" duration-ms="10027" started-at="2019-12-02T15:51:07 EST" finished-at="2019-12-02T15:51:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAccount -->
+        <test-method status="PASS" signature="rampdown()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="rampdown" is-config="true" duration-ms="120" started-at="2019-12-02T15:51:17 EST" finished-at="2019-12-02T15:51:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampdown -->
+        <test-method status="PASS" signature="rampUp()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="rampUp" is-config="true" duration-ms="1" started-at="2019-12-02T15:51:17 EST" finished-at="2019-12-02T15:51:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampUp -->
+        <test-method status="PASS" signature="signUP()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="signUP" duration-ms="9606" started-at="2019-12-02T15:51:17 EST" finished-at="2019-12-02T15:51:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUP -->
+        <test-method status="PASS" signature="rampdown()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="rampdown" is-config="true" duration-ms="139" started-at="2019-12-02T15:51:27 EST" finished-at="2019-12-02T15:51:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampdown -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.Runner.SmockRunTestNG@22a67b4]" name="testCompleted" is-config="true" duration-ms="3" started-at="2019-12-02T15:51:27 EST" finished-at="2019-12-02T15:51:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.Runner.SmockRunTestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

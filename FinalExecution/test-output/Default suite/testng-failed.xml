@@ -3,15 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestRunner.SmockRunTestNG">
+      <class name="com.Runner.SmockRunTestNG">
         <methods>
           <include name="testCompleted"/>
-          <include name="rampUp"/>
           <include name="testStartUp"/>
-          <include name="myAccount"/>
+          <include name="logOut"/>
           <include name="rampdown"/>
+          <include name="myAccount"/>
+          <include name="rampUp"/>
         </methods>
-      </class> <!-- com.TestRunner.SmockRunTestNG -->
+      </class> <!-- com.Runner.SmockRunTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

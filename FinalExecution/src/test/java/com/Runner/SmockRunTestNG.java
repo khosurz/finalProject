@@ -13,7 +13,7 @@ import com.Pages.AddNewUser;
 import com.Pages.HomePage;
 import com.Pages.MyAccount;
 
-public class SmockRunTestNG extends TestBase {
+public class SmockRunTestNG extends TestBase{
 
 // HomePage homePage(WebDriver driver) {
 //		return null;
@@ -42,7 +42,7 @@ public class SmockRunTestNG extends TestBase {
 		home = new HomePage(driver);
 		extracted();
 		home.login();
-		//myAcc.getAvailableOptions();
+		myAcc.getAvailableOptions();
 		home.takeMeToAccount();
 		String actualMyAccount = myAcc.getAccountName();
 		Assert.assertEquals(actualMyAccount, "NULL", "Failed to go to my Account");
@@ -69,10 +69,11 @@ public class SmockRunTestNG extends TestBase {
 		AddNewUser addUsr = new AddNewUser(driver);
 		Random random = new Random();
 		int regNum = random.nextInt();
-		addUsr.newUserRegistration(null);
+		addUsr.newUserRegistration("abr@gmail.com");
 		String actualProfileName = home.getAccVarification();
 		Assert.assertEquals(actualProfileName, "NULL",
 				"Faield To Find To Proper Profile Name After Registrationb");
 	} 
+
 
 }
